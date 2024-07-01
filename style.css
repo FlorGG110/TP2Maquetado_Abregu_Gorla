@@ -1,0 +1,89 @@
+* {
+    font-family: 'Taviraj', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2, h3{
+    font-family: 'Concert One', cursive;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+section{
+    border: none;
+    background-color: rgb(196, 179, 133);
+    margin: 25px;
+}
+
+#logo {
+    width: 130px;
+}
+
+#ulnav {
+    float: right;
+    margin: 0 15px 0 0;
+}
+
+#opiniones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#opiniones article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+figure{
+    text-align: center;
+}
+
+.fotoperfil {
+    width: 100px; 
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.pcenter {
+    text-align: center;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: rgb(165, 165, 255);
+}
+
+#feedback {
+    display: none;
+  }
+
+
+.embed-responsive {
+    margin-bottom: 2rem;
+}
+
+.carousel-control-next {
+    left:auto;
+    right:-32px;
+  }
+  .carousel-control-prev {
+    right:auto;
+    left:-120px;
+  }
+
+  .carousel-item {
+    transition: transform 1s ease-in-out;
+  }
+
+ 
